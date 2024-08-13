@@ -1,0 +1,490 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8CDB222C6B747E0000A1E8 /* MerlinTranscriptApi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8CDB192C6B747E0000A1E8 /* MerlinTranscriptApi.framework */; };
+		0C8CDB322C6B74C30000A1E8 /* merlin_transcript.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C8CDB312C6B74C30000A1E8 /* merlin_transcript.xcframework */; };
+		0C8CDB372C6B74D70000A1E8 /* MerlinTranscriptApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CDB342C6B74D70000A1E8 /* MerlinTranscriptApi.swift */; };
+		0C8CDB412C6B76090000A1E8 /* SwiftBridgeCore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CDB402C6B76090000A1E8 /* SwiftBridgeCore.swift */; };
+		0C8CDB432C6B76300000A1E8 /* merlin-transcript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CDB422C6B76300000A1E8 /* merlin-transcript.swift */; };
+		0C8CDB462C6B77650000A1E8 /* RaiseTranscriptTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C8CDB452C6B77650000A1E8 /* RaiseTranscriptTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0C8CDB232C6B747E0000A1E8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0C8CDB102C6B747E0000A1E8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C8CDB182C6B747E0000A1E8;
+			remoteInfo = "merlin-transcript";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0C8CDB192C6B747E0000A1E8 /* MerlinTranscriptApi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MerlinTranscriptApi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8CDB212C6B747E0000A1E8 /* MerlinTranscriptApiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MerlinTranscriptApiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0C8CDB312C6B74C30000A1E8 /* merlin_transcript.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = merlin_transcript.xcframework; path = bindings/xcframework/merlin_transcript.xcframework; sourceTree = "<group>"; };
+		0C8CDB342C6B74D70000A1E8 /* MerlinTranscriptApi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MerlinTranscriptApi.swift; sourceTree = "<group>"; };
+		0C8CDB402C6B76090000A1E8 /* SwiftBridgeCore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftBridgeCore.swift; sourceTree = "<group>"; };
+		0C8CDB422C6B76300000A1E8 /* merlin-transcript.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "merlin-transcript.swift"; sourceTree = "<group>"; };
+		0C8CDB442C6B77650000A1E8 /* merlin-transcriptTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "merlin-transcriptTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		0C8CDB452C6B77650000A1E8 /* RaiseTranscriptTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RaiseTranscriptTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0C8CDB162C6B747E0000A1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CDB322C6B74C30000A1E8 /* merlin_transcript.xcframework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8CDB1E2C6B747E0000A1E8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CDB222C6B747E0000A1E8 /* MerlinTranscriptApi.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0C8CDB0F2C6B747E0000A1E8 = {
+			isa = PBXGroup;
+			children = (
+				0C8CDB312C6B74C30000A1E8 /* merlin_transcript.xcframework */,
+				0C8CDB332C6B74D70000A1E8 /* Sources */,
+				0C8CDB3A2C6B74EC0000A1E8 /* Tests */,
+				0C8CDB1A2C6B747E0000A1E8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0C8CDB1A2C6B747E0000A1E8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0C8CDB192C6B747E0000A1E8 /* MerlinTranscriptApi.framework */,
+				0C8CDB212C6B747E0000A1E8 /* MerlinTranscriptApiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0C8CDB332C6B74D70000A1E8 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				0C8CDB422C6B76300000A1E8 /* merlin-transcript.swift */,
+				0C8CDB342C6B74D70000A1E8 /* MerlinTranscriptApi.swift */,
+				0C8CDB402C6B76090000A1E8 /* SwiftBridgeCore.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		0C8CDB3A2C6B74EC0000A1E8 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0C8CDB452C6B77650000A1E8 /* RaiseTranscriptTests.swift */,
+				0C8CDB442C6B77650000A1E8 /* merlin-transcriptTests-Bridging-Header.h */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		0C8CDB142C6B747E0000A1E8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0C8CDB182C6B747E0000A1E8 /* MerlinTranscriptApi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8CDB2B2C6B747E0000A1E8 /* Build configuration list for PBXNativeTarget "MerlinTranscriptApi" */;
+			buildPhases = (
+				0C8CDB142C6B747E0000A1E8 /* Headers */,
+				0C8CDB152C6B747E0000A1E8 /* Sources */,
+				0C8CDB162C6B747E0000A1E8 /* Frameworks */,
+				0C8CDB172C6B747E0000A1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MerlinTranscriptApi;
+			productName = "merlin-transcript";
+			productReference = 0C8CDB192C6B747E0000A1E8 /* MerlinTranscriptApi.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		0C8CDB202C6B747E0000A1E8 /* MerlinTranscriptApiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0C8CDB2E2C6B747E0000A1E8 /* Build configuration list for PBXNativeTarget "MerlinTranscriptApiTests" */;
+			buildPhases = (
+				0C8CDB1D2C6B747E0000A1E8 /* Sources */,
+				0C8CDB1E2C6B747E0000A1E8 /* Frameworks */,
+				0C8CDB1F2C6B747E0000A1E8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0C8CDB242C6B747E0000A1E8 /* PBXTargetDependency */,
+			);
+			name = MerlinTranscriptApiTests;
+			productName = "merlin-transcriptTests";
+			productReference = 0C8CDB212C6B747E0000A1E8 /* MerlinTranscriptApiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0C8CDB102C6B747E0000A1E8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					0C8CDB182C6B747E0000A1E8 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					0C8CDB202C6B747E0000A1E8 = {
+						CreatedOnToolsVersion = 15.2;
+						LastSwiftMigration = 1520;
+					};
+				};
+			};
+			buildConfigurationList = 0C8CDB132C6B747E0000A1E8 /* Build configuration list for PBXProject "MerlinTranscriptApi" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0C8CDB0F2C6B747E0000A1E8;
+			productRefGroup = 0C8CDB1A2C6B747E0000A1E8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0C8CDB182C6B747E0000A1E8 /* MerlinTranscriptApi */,
+				0C8CDB202C6B747E0000A1E8 /* MerlinTranscriptApiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0C8CDB172C6B747E0000A1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8CDB1F2C6B747E0000A1E8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0C8CDB152C6B747E0000A1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CDB372C6B74D70000A1E8 /* MerlinTranscriptApi.swift in Sources */,
+				0C8CDB412C6B76090000A1E8 /* SwiftBridgeCore.swift in Sources */,
+				0C8CDB432C6B76300000A1E8 /* merlin-transcript.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0C8CDB1D2C6B747E0000A1E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C8CDB462C6B77650000A1E8 /* RaiseTranscriptTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0C8CDB242C6B747E0000A1E8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0C8CDB182C6B747E0000A1E8 /* MerlinTranscriptApi */;
+			targetProxy = 0C8CDB232C6B747E0000A1E8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0C8CDB292C6B747E0000A1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0C8CDB2A2C6B747E0000A1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		0C8CDB2C2C6B747E0000A1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RD2HBGJZLF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.2e081bb8d008ddf1.merlin-transcript";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C8CDB2D2C6B747E0000A1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = RD2HBGJZLF;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				MODULE_VERIFIER_SUPPORTED_LANGUAGES = "objective-c objective-c++";
+				MODULE_VERIFIER_SUPPORTED_LANGUAGE_STANDARDS = "gnu17 gnu++20";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.2e081bb8d008ddf1.merlin-transcript";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0C8CDB2F2C6B747E0000A1E8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD2HBGJZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.2e081bb8d008ddf1.merlin-transcriptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/merlin-transcriptTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0C8CDB302C6B747E0000A1E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = RD2HBGJZLF;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "org.2e081bb8d008ddf1.merlin-transcriptTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OBJC_BRIDGING_HEADER = "Tests/merlin-transcriptTests-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0C8CDB132C6B747E0000A1E8 /* Build configuration list for PBXProject "MerlinTranscriptApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8CDB292C6B747E0000A1E8 /* Debug */,
+				0C8CDB2A2C6B747E0000A1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8CDB2B2C6B747E0000A1E8 /* Build configuration list for PBXNativeTarget "MerlinTranscriptApi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8CDB2C2C6B747E0000A1E8 /* Debug */,
+				0C8CDB2D2C6B747E0000A1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0C8CDB2E2C6B747E0000A1E8 /* Build configuration list for PBXNativeTarget "MerlinTranscriptApiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0C8CDB2F2C6B747E0000A1E8 /* Debug */,
+				0C8CDB302C6B747E0000A1E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0C8CDB102C6B747E0000A1E8 /* Project object */;
+}

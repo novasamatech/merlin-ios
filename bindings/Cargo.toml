@@ -1,0 +1,19 @@
+[package]
+ edition = '2021'
+ name = 'merlin-transcript'
+ license = 'Apache 2.0'
+ version = "0.1.0"
+
+ build = "build.rs"
+
+[lib]
+ crate-type = ["staticlib", "cdylib"]
+
+[build-dependencies]
+ swift-bridge-build = "0.1"
+
+[dependencies]
+ merlin = "=3.0.0"
+ schnorrkel = { version="0.10.0" }
+ base64 = "0.22.1"
+ swift-bridge = "0.1"
