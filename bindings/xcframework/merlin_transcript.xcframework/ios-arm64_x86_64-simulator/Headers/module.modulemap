@@ -1,5 +1,0 @@
-module merlin_transcript {
-    header "SwiftBridgeCore.h"
-    header "merlin-transcript.h"
-    export *
-}

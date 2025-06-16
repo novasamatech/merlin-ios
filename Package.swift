@@ -19,5 +19,12 @@ let package = Package(
             dependencies: ["merlin-transcript"],
             path: "Sources"
         ),
+        .testTarget(
+            name: "Tests",
+            dependencies: [
+                "MerlinTranscriptApi"
+            ],
+            path: "Tests"
+        )
     ]
 )
