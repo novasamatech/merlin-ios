@@ -9,11 +9,11 @@
     <key>CFBundleExecutable</key>
     <string>merlin_transcript</string>
     <key>CFBundleIdentifier</key>
-    <string>com.yourcompany.merlin_transcript</string>
+    <string>io.novasama.merlin-transcript</string>
     <key>CFBundleVersion</key>
-    <string>0.1.0</string>
+    <string>0.2.0</string>
     <key>CFBundleShortVersionString</key>
-    <string>0.1.0</string>
+    <string>0.2.0</string>
     <key>CFBundleSupportedPlatforms</key>
     <array>
         <string>MacOSX</string>

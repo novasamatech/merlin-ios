@@ -7,7 +7,7 @@ lib_name="merlin_transcript"
 output_dir="./xcframework"
 release_dir="./target"
 temp_dir="./temp"
-bundle_id="com.yourcompany.${lib_name}"
+bundle_id="io.novasama.merlin-transcript"
 min_macos_version="10.15"
 min_ios_version="14.0"
 
